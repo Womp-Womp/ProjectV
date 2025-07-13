@@ -1,0 +1,3 @@
+/app/charisma-engine/CMakeFiles/charisma-engine.dir
+/app/charisma-engine/CMakeFiles/edit_cache.dir
+/app/charisma-engine/CMakeFiles/rebuild_cache.dir

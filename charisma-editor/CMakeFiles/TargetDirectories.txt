@@ -1,0 +1,8 @@
+/app/charisma-editor/CMakeFiles/charisma-editor.dir
+/app/charisma-editor/CMakeFiles/unit_tests.dir
+/app/charisma-editor/CMakeFiles/edit_cache.dir
+/app/charisma-editor/CMakeFiles/rebuild_cache.dir
+/app/charisma-editor/CMakeFiles/charisma-editor_autogen_timestamp_deps.dir
+/app/charisma-editor/CMakeFiles/charisma-editor_autogen.dir
+/app/charisma-editor/CMakeFiles/unit_tests_autogen_timestamp_deps.dir
+/app/charisma-editor/CMakeFiles/unit_tests_autogen.dir

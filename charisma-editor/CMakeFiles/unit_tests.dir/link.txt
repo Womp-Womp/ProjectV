@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o CMakeFiles/unit_tests.dir/tests/test_project_manager.cpp.o CMakeFiles/unit_tests.dir/src/project_manager.cpp.o -o unit_tests  /usr/lib/x86_64-linux-gnu/libgtest_main.a -lpthread /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libgtest.a

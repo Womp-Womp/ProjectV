@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+13293c6167ce260bb76360892e64db5a CMakeFiles/charisma-editor_autogen
+13293c6167ce260bb76360892e64db5a CMakeFiles/charisma-editor_autogen_timestamp_deps
+13293c6167ce260bb76360892e64db5a CMakeFiles/unit_tests_autogen
+13293c6167ce260bb76360892e64db5a CMakeFiles/unit_tests_autogen_timestamp_deps
+00832ab74cd3e78de4399f8c7b8d87b9 charisma-editor_autogen/timestamp
+2e39d4e0349d791531e0a3ffd5c32732 unit_tests_autogen/timestamp

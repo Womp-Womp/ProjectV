@@ -118,11 +118,116 @@ CMakeFiles/unit_tests.dir/src/project_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/project_manager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/project_manager.cpp -o CMakeFiles/unit_tests.dir/src/project_manager.cpp.s
 
+CMakeFiles/unit_tests.dir/src/main_window.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/main_window.cpp.o: src/main_window.cpp
+CMakeFiles/unit_tests.dir/src/main_window.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unit_tests.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/main_window.cpp.o -MF CMakeFiles/unit_tests.dir/src/main_window.cpp.o.d -o CMakeFiles/unit_tests.dir/src/main_window.cpp.o -c /app/charisma-editor/src/main_window.cpp
+
+CMakeFiles/unit_tests.dir/src/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/main_window.cpp > CMakeFiles/unit_tests.dir/src/main_window.cpp.i
+
+CMakeFiles/unit_tests.dir/src/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/main_window.cpp -o CMakeFiles/unit_tests.dir/src/main_window.cpp.s
+
+CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o: src/map_editor_widget.cpp
+CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o -c /app/charisma-editor/src/map_editor_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/map_editor_widget.cpp > CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/map_editor_widget.cpp -o CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.s
+
+CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o: src/unit_editor_widget.cpp
+CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o -c /app/charisma-editor/src/unit_editor_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/unit_editor_widget.cpp > CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/unit_editor_widget.cpp -o CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.s
+
+CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o: src/faction_editor_widget.cpp
+CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o -c /app/charisma-editor/src/faction_editor_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/faction_editor_widget.cpp > CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/faction_editor_widget.cpp -o CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.s
+
+CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o: src/event_editor_widget.cpp
+CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o -c /app/charisma-editor/src/event_editor_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/event_editor_widget.cpp > CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/event_editor_widget.cpp -o CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.s
+
+CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o: src/media_manager_widget.cpp
+CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o -c /app/charisma-editor/src/media_manager_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/media_manager_widget.cpp > CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/media_manager_widget.cpp -o CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.s
+
+CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/flags.make
+CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o: src/lore_editor_widget.cpp
+CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o: CMakeFiles/unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o -MF CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o.d -o CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o -c /app/charisma-editor/src/lore_editor_widget.cpp
+
+CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/lore_editor_widget.cpp > CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.i
+
+CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/lore_editor_widget.cpp -o CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.s
+
 # Object files for target unit_tests
 unit_tests_OBJECTS = \
 "CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/unit_tests.dir/tests/test_project_manager.cpp.o" \
-"CMakeFiles/unit_tests.dir/src/project_manager.cpp.o"
+"CMakeFiles/unit_tests.dir/src/project_manager.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/main_window.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o" \
+"CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o"
 
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS =
@@ -130,12 +235,23 @@ unit_tests_EXTERNAL_OBJECTS =
 unit_tests: CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o
 unit_tests: CMakeFiles/unit_tests.dir/tests/test_project_manager.cpp.o
 unit_tests: CMakeFiles/unit_tests.dir/src/project_manager.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/main_window.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o
+unit_tests: CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o
 unit_tests: CMakeFiles/unit_tests.dir/build.make
 unit_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
-unit_tests: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+unit_tests: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 unit_tests: /usr/lib/x86_64-linux-gnu/libgtest.a
+unit_tests: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+unit_tests: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+unit_tests: /usr/lib/x86_64-linux-gnu/libGLX.so
+unit_tests: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 unit_tests: CMakeFiles/unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable unit_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable unit_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

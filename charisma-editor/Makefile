@@ -224,6 +224,7 @@ src/event_editor_widget.o: src/event_editor_widget.cpp.o
 # target to build an object file
 src/event_editor_widget.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/event_editor_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o
 .PHONY : src/event_editor_widget.cpp.o
 
 src/event_editor_widget.i: src/event_editor_widget.cpp.i
@@ -232,6 +233,7 @@ src/event_editor_widget.i: src/event_editor_widget.cpp.i
 # target to preprocess a source file
 src/event_editor_widget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/event_editor_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.i
 .PHONY : src/event_editor_widget.cpp.i
 
 src/event_editor_widget.s: src/event_editor_widget.cpp.s
@@ -240,6 +242,7 @@ src/event_editor_widget.s: src/event_editor_widget.cpp.s
 # target to generate assembly for a file
 src/event_editor_widget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/event_editor_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.s
 .PHONY : src/event_editor_widget.cpp.s
 
 src/faction_editor_widget.o: src/faction_editor_widget.cpp.o
@@ -248,6 +251,7 @@ src/faction_editor_widget.o: src/faction_editor_widget.cpp.o
 # target to build an object file
 src/faction_editor_widget.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o
 .PHONY : src/faction_editor_widget.cpp.o
 
 src/faction_editor_widget.i: src/faction_editor_widget.cpp.i
@@ -256,6 +260,7 @@ src/faction_editor_widget.i: src/faction_editor_widget.cpp.i
 # target to preprocess a source file
 src/faction_editor_widget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.i
 .PHONY : src/faction_editor_widget.cpp.i
 
 src/faction_editor_widget.s: src/faction_editor_widget.cpp.s
@@ -264,7 +269,35 @@ src/faction_editor_widget.s: src/faction_editor_widget.cpp.s
 # target to generate assembly for a file
 src/faction_editor_widget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.s
 .PHONY : src/faction_editor_widget.cpp.s
+
+src/lore_editor_widget.o: src/lore_editor_widget.cpp.o
+.PHONY : src/lore_editor_widget.o
+
+# target to build an object file
+src/lore_editor_widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o
+.PHONY : src/lore_editor_widget.cpp.o
+
+src/lore_editor_widget.i: src/lore_editor_widget.cpp.i
+.PHONY : src/lore_editor_widget.i
+
+# target to preprocess a source file
+src/lore_editor_widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.i
+.PHONY : src/lore_editor_widget.cpp.i
+
+src/lore_editor_widget.s: src/lore_editor_widget.cpp.s
+.PHONY : src/lore_editor_widget.s
+
+# target to generate assembly for a file
+src/lore_editor_widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.s
+.PHONY : src/lore_editor_widget.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -290,12 +323,40 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_window.o: src/main_window.cpp.o
+.PHONY : src/main_window.o
+
+# target to build an object file
+src/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/main_window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/main_window.cpp.o
+.PHONY : src/main_window.cpp.o
+
+src/main_window.i: src/main_window.cpp.i
+.PHONY : src/main_window.i
+
+# target to preprocess a source file
+src/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/main_window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/main_window.cpp.i
+.PHONY : src/main_window.cpp.i
+
+src/main_window.s: src/main_window.cpp.s
+.PHONY : src/main_window.s
+
+# target to generate assembly for a file
+src/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/main_window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/main_window.cpp.s
+.PHONY : src/main_window.cpp.s
+
 src/map_editor_widget.o: src/map_editor_widget.cpp.o
 .PHONY : src/map_editor_widget.o
 
 # target to build an object file
 src/map_editor_widget.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o
 .PHONY : src/map_editor_widget.cpp.o
 
 src/map_editor_widget.i: src/map_editor_widget.cpp.i
@@ -304,6 +365,7 @@ src/map_editor_widget.i: src/map_editor_widget.cpp.i
 # target to preprocess a source file
 src/map_editor_widget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.i
 .PHONY : src/map_editor_widget.cpp.i
 
 src/map_editor_widget.s: src/map_editor_widget.cpp.s
@@ -312,6 +374,7 @@ src/map_editor_widget.s: src/map_editor_widget.cpp.s
 # target to generate assembly for a file
 src/map_editor_widget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.s
 .PHONY : src/map_editor_widget.cpp.s
 
 src/media_manager_widget.o: src/media_manager_widget.cpp.o
@@ -320,6 +383,7 @@ src/media_manager_widget.o: src/media_manager_widget.cpp.o
 # target to build an object file
 src/media_manager_widget.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o
 .PHONY : src/media_manager_widget.cpp.o
 
 src/media_manager_widget.i: src/media_manager_widget.cpp.i
@@ -328,6 +392,7 @@ src/media_manager_widget.i: src/media_manager_widget.cpp.i
 # target to preprocess a source file
 src/media_manager_widget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.i
 .PHONY : src/media_manager_widget.cpp.i
 
 src/media_manager_widget.s: src/media_manager_widget.cpp.s
@@ -336,6 +401,7 @@ src/media_manager_widget.s: src/media_manager_widget.cpp.s
 # target to generate assembly for a file
 src/media_manager_widget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.s
 .PHONY : src/media_manager_widget.cpp.s
 
 src/modules/faction/faction_editor.o: src/modules/faction/faction_editor.cpp.o
@@ -443,6 +509,7 @@ src/unit_editor_widget.o: src/unit_editor_widget.cpp.o
 # target to build an object file
 src/unit_editor_widget.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o
 .PHONY : src/unit_editor_widget.cpp.o
 
 src/unit_editor_widget.i: src/unit_editor_widget.cpp.i
@@ -451,6 +518,7 @@ src/unit_editor_widget.i: src/unit_editor_widget.cpp.i
 # target to preprocess a source file
 src/unit_editor_widget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.i
 .PHONY : src/unit_editor_widget.cpp.i
 
 src/unit_editor_widget.s: src/unit_editor_widget.cpp.s
@@ -459,6 +527,7 @@ src/unit_editor_widget.s: src/unit_editor_widget.cpp.s
 # target to generate assembly for a file
 src/unit_editor_widget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charisma-editor.dir/build.make CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.s
 .PHONY : src/unit_editor_widget.cpp.s
 
 tests/test_project_manager.o: tests/test_project_manager.cpp.o
@@ -532,9 +601,15 @@ help:
 	@echo "... src/faction_editor_widget.o"
 	@echo "... src/faction_editor_widget.i"
 	@echo "... src/faction_editor_widget.s"
+	@echo "... src/lore_editor_widget.o"
+	@echo "... src/lore_editor_widget.i"
+	@echo "... src/lore_editor_widget.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main_window.o"
+	@echo "... src/main_window.i"
+	@echo "... src/main_window.s"
 	@echo "... src/map_editor_widget.o"
 	@echo "... src/map_editor_widget.i"
 	@echo "... src/map_editor_widget.s"

@@ -218,6 +218,18 @@
 			null
 		],
 		[
+			"/app/charisma-editor/src/lore_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_lore_editor_widget.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/main_window.h",
+			"MU",
+			"UVLADIE3JM/moc_main_window.cpp",
+			null
+		],
+		[
 			"/app/charisma-editor/src/map_editor_widget.h",
 			"MU",
 			"UVLADIE3JM/moc_map_editor_widget.cpp",
@@ -320,7 +332,9 @@
 	[
 		[ "/app/charisma-editor/src/event_editor_widget.cpp", "MU", null ],
 		[ "/app/charisma-editor/src/faction_editor_widget.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/lore_editor_widget.cpp", "MU", null ],
 		[ "/app/charisma-editor/src/main.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/main_window.cpp", "MU", null ],
 		[ "/app/charisma-editor/src/map_editor_widget.cpp", "MU", null ],
 		[ "/app/charisma-editor/src/media_manager_widget.cpp", "MU", null ],
 		[

@@ -2,7 +2,7 @@
 #include <QDir>
 #include <QDebug>
 
-ProjectManager::ProjectManager() {
+ProjectManager::ProjectManager(QObject *parent) : QObject(parent) {
 }
 
 void ProjectManager::createNewProject(const QString &projectPath) {

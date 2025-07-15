@@ -3,6 +3,11 @@
 
 #include <QWidget>
 
+class QGridLayout;
+class QComboBox;
+class QPushButton;
+class QSpinBox;
+
 class MapEditorWidget : public QWidget {
     Q_OBJECT
 
@@ -14,7 +19,14 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
-    // Add map data members here
+    void createTools();
+    void createMap();
+
+    QGridLayout *mainLayout;
+    QComboBox *toolSelector;
+    QPushButton *newMapButton;
+    QSpinBox *widthSpinBox;
+    QSpinBox *heightSpinBox;
 };
 
 #endif // MAP_EDITOR_WIDGET_H

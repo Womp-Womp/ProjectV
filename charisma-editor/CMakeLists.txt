@@ -23,6 +23,6 @@ target_include_directories(charisma-editor PUBLIC src)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_executable(unit_tests tests/test_project_manager.cpp src/project_manager.cpp)
-target_link_libraries(unit_tests GTest::gtest_main pthread Qt6::Core)
+add_executable(unit_tests tests/test_project_manager.cpp src/project_manager.cpp src/main_window.cpp src/map_editor_widget.cpp src/unit_editor_widget.cpp src/faction_editor_widget.cpp src/event_editor_widget.cpp src/media_manager_widget.cpp src/lore_editor_widget.cpp)
+target_link_libraries(unit_tests GTest::gtest_main pthread Qt6::Core Qt6::Widgets)
 target_include_directories(unit_tests PUBLIC src)

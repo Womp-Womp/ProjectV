@@ -9,7 +9,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "unit_tests_autogen/timestamp" "custom" "unit_tests_autogen/deps"
+  "/app/charisma-editor/src/event_editor_widget.cpp" "CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/event_editor_widget.cpp.o.d"
+  "/app/charisma-editor/src/faction_editor_widget.cpp" "CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/faction_editor_widget.cpp.o.d"
+  "/app/charisma-editor/src/lore_editor_widget.cpp" "CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/lore_editor_widget.cpp.o.d"
+  "/app/charisma-editor/src/main_window.cpp" "CMakeFiles/unit_tests.dir/src/main_window.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/main_window.cpp.o.d"
+  "/app/charisma-editor/src/map_editor_widget.cpp" "CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/map_editor_widget.cpp.o.d"
+  "/app/charisma-editor/src/media_manager_widget.cpp" "CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/media_manager_widget.cpp.o.d"
   "/app/charisma-editor/src/project_manager.cpp" "CMakeFiles/unit_tests.dir/src/project_manager.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/project_manager.cpp.o.d"
+  "/app/charisma-editor/src/unit_editor_widget.cpp" "CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/src/unit_editor_widget.cpp.o.d"
   "/app/charisma-editor/tests/test_project_manager.cpp" "CMakeFiles/unit_tests.dir/tests/test_project_manager.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/tests/test_project_manager.cpp.o.d"
   "/app/charisma-editor/unit_tests_autogen/mocs_compilation.cpp" "CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o.d"
   )

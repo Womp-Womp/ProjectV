@@ -4,9 +4,10 @@
 #include <QObject>
 #include <QString>
 
-class ProjectManager {
+class ProjectManager : public QObject {
+    Q_OBJECT
 public:
-    ProjectManager();
+    explicit ProjectManager(QObject *parent = nullptr);
 
     void createNewProject(const QString &projectPath);
     void loadProject(const QString &projectPath);

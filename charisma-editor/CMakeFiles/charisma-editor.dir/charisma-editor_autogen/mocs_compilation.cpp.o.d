@@ -342,9 +342,23 @@ CMakeFiles/charisma-editor.dir/charisma-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_faction_editor_widget.cpp \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/faction_editor_widget.h \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_lore_editor_widget.cpp \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/lore_editor_widget.h \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_main_window.cpp \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/main_window.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_map_editor_widget.cpp \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/map_editor_widget.h \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_media_manager_widget.cpp \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/media_manager_widget.h \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_project_manager.cpp \
+ /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/project_manager.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/moc_unit_editor_widget.cpp \
  /app/charisma-editor/charisma-editor_autogen/UVLADIE3JM/../../src/unit_editor_widget.h

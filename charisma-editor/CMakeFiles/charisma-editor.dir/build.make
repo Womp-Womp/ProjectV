@@ -118,10 +118,24 @@ CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/faction_editor_widget.cpp -o CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.s
 
+CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
+CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o: src/lore_editor_widget.cpp
+CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o -MF CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o -c /app/charisma-editor/src/lore_editor_widget.cpp
+
+CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/lore_editor_widget.cpp > CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.i
+
+CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/lore_editor_widget.cpp -o CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.s
+
 CMakeFiles/charisma-editor.dir/src/main.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/charisma-editor.dir/src/main.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/charisma-editor.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/charisma-editor.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/main.cpp.o -MF CMakeFiles/charisma-editor.dir/src/main.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/main.cpp.o -c /app/charisma-editor/src/main.cpp
 
 CMakeFiles/charisma-editor.dir/src/main.cpp.i: cmake_force
@@ -132,10 +146,24 @@ CMakeFiles/charisma-editor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/charisma-editor.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/main.cpp -o CMakeFiles/charisma-editor.dir/src/main.cpp.s
 
+CMakeFiles/charisma-editor.dir/src/main_window.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
+CMakeFiles/charisma-editor.dir/src/main_window.cpp.o: src/main_window.cpp
+CMakeFiles/charisma-editor.dir/src/main_window.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/charisma-editor.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/main_window.cpp.o -MF CMakeFiles/charisma-editor.dir/src/main_window.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/main_window.cpp.o -c /app/charisma-editor/src/main_window.cpp
+
+CMakeFiles/charisma-editor.dir/src/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/charisma-editor.dir/src/main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/charisma-editor/src/main_window.cpp > CMakeFiles/charisma-editor.dir/src/main_window.cpp.i
+
+CMakeFiles/charisma-editor.dir/src/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/charisma-editor.dir/src/main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/charisma-editor/src/main_window.cpp -o CMakeFiles/charisma-editor.dir/src/main_window.cpp.s
+
 CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o: src/map_editor_widget.cpp
 CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o -MF CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o -c /app/charisma-editor/src/map_editor_widget.cpp
 
 CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.i: cmake_force
@@ -149,7 +177,7 @@ CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.s: cmake_force
 CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o: src/media_manager_widget.cpp
 CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o -MF CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o -c /app/charisma-editor/src/media_manager_widget.cpp
 
 CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.i: cmake_force
@@ -163,7 +191,7 @@ CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.s: cmake_force
 CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o: src/modules/faction/faction_editor.cpp
 CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o -MF CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o -c /app/charisma-editor/src/modules/faction/faction_editor.cpp
 
 CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.i: cmake_force
@@ -177,7 +205,7 @@ CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.s: cmake_f
 CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o: src/modules/map/map_editor.cpp
 CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o -MF CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.o -c /app/charisma-editor/src/modules/map/map_editor.cpp
 
 CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.i: cmake_force
@@ -191,7 +219,7 @@ CMakeFiles/charisma-editor.dir/src/modules/map/map_editor.cpp.s: cmake_force
 CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o: src/modules/unit/unit_editor.cpp
 CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o -MF CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.o -c /app/charisma-editor/src/modules/unit/unit_editor.cpp
 
 CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.i: cmake_force
@@ -205,7 +233,7 @@ CMakeFiles/charisma-editor.dir/src/modules/unit/unit_editor.cpp.s: cmake_force
 CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o: src/project_manager.cpp
 CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o -MF CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/project_manager.cpp.o -c /app/charisma-editor/src/project_manager.cpp
 
 CMakeFiles/charisma-editor.dir/src/project_manager.cpp.i: cmake_force
@@ -219,7 +247,7 @@ CMakeFiles/charisma-editor.dir/src/project_manager.cpp.s: cmake_force
 CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/flags.make
 CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o: src/unit_editor_widget.cpp
 CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o: CMakeFiles/charisma-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o -MF CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o.d -o CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.o -c /app/charisma-editor/src/unit_editor_widget.cpp
 
 CMakeFiles/charisma-editor.dir/src/unit_editor_widget.cpp.i: cmake_force
@@ -235,7 +263,9 @@ charisma__editor_OBJECTS = \
 "CMakeFiles/charisma-editor.dir/charisma-editor_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/event_editor_widget.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.o" \
+"CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/main.cpp.o" \
+"CMakeFiles/charisma-editor.dir/src/main_window.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o" \
 "CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o" \
@@ -250,7 +280,9 @@ charisma__editor_EXTERNAL_OBJECTS =
 charisma-editor: CMakeFiles/charisma-editor.dir/charisma-editor_autogen/mocs_compilation.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/event_editor_widget.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/faction_editor_widget.cpp.o
+charisma-editor: CMakeFiles/charisma-editor.dir/src/lore_editor_widget.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/main.cpp.o
+charisma-editor: CMakeFiles/charisma-editor.dir/src/main_window.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/map_editor_widget.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/media_manager_widget.cpp.o
 charisma-editor: CMakeFiles/charisma-editor.dir/src/modules/faction/faction_editor.cpp.o
@@ -265,7 +297,7 @@ charisma-editor: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 charisma-editor: /usr/lib/x86_64-linux-gnu/libGLX.so
 charisma-editor: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 charisma-editor: CMakeFiles/charisma-editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable charisma-editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/app/charisma-editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable charisma-editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/charisma-editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

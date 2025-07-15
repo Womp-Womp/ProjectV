@@ -206,16 +206,58 @@
 	"HEADERS" :
 	[
 		[
+			"/app/charisma-editor/src/event_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_event_editor_widget.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/faction_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_faction_editor_widget.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/lore_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_lore_editor_widget.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/main_window.h",
+			"MU",
+			"UVLADIE3JM/moc_main_window.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/map_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_map_editor_widget.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/media_manager_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_media_manager_widget.cpp",
+			null
+		],
+		[
 			"/app/charisma-editor/src/project_manager.h",
 			"MU",
 			"UVLADIE3JM/moc_project_manager.cpp",
+			null
+		],
+		[
+			"/app/charisma-editor/src/unit_editor_widget.h",
+			"MU",
+			"UVLADIE3JM/moc_unit_editor_widget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/app/charisma-editor/unit_tests_autogen/include",
 	"MOC_COMPILATION_FILE" : "/app/charisma-editor/unit_tests_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" :
 	[
 		[
@@ -229,6 +271,8 @@
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
 		"/usr/include",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
@@ -268,7 +312,14 @@
 	"SETTINGS_FILE" : "/app/charisma-editor/CMakeFiles/unit_tests_autogen.dir/AutogenUsed.txt",
 	"SOURCES" :
 	[
+		[ "/app/charisma-editor/src/event_editor_widget.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/faction_editor_widget.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/lore_editor_widget.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/main_window.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/map_editor_widget.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/media_manager_widget.cpp", "MU", null ],
 		[ "/app/charisma-editor/src/project_manager.cpp", "MU", null ],
+		[ "/app/charisma-editor/src/unit_editor_widget.cpp", "MU", null ],
 		[ "/app/charisma-editor/tests/test_project_manager.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

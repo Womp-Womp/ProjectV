@@ -8,7 +8,11 @@ charisma-editor_autogen/timestamp: \
 	/app/charisma-editor/src/event_editor_widget.h \
 	/app/charisma-editor/src/faction_editor_widget.cpp \
 	/app/charisma-editor/src/faction_editor_widget.h \
+	/app/charisma-editor/src/lore_editor_widget.cpp \
+	/app/charisma-editor/src/lore_editor_widget.h \
 	/app/charisma-editor/src/main.cpp \
+	/app/charisma-editor/src/main_window.cpp \
+	/app/charisma-editor/src/main_window.h \
 	/app/charisma-editor/src/map_editor_widget.cpp \
 	/app/charisma-editor/src/map_editor_widget.h \
 	/app/charisma-editor/src/media_manager_widget.cpp \
@@ -306,6 +310,8 @@ charisma-editor_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -413,8 +419,11 @@ charisma-editor_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
